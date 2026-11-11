@@ -1,0 +1,44 @@
+BẢN ĐỒ HÀNH TRÌNH KHÁCH HÀNG (CUSTOMER JOURNEY MAP)
+Lĩnh vực: Dịch vụ Viễn thông & Bán lẻ (Telco & Retail Store Experience)
+I. CẤU TRÚC KHÔNG GIANG VÀ KHÔI THÔNG TIN (FRAMEWORK ARCHITECTURE)
+Khung bản đồ được tổ chức theo giao lộ 2 chiều (Ma trận Hành trình x Tầng vận hành):
+1. Trục dọc — Tầng trải nghiệm & Vận hành (Operational Layers)
+ * Khách hàng (Customer Layer): Hành động (Doing), Suy nghĩ (Thinking), Cảm xúc (Feeling) và Biểu đồ chỉ số cảm xúc (Emotional Wave).
+ * Nhân viên (Staff Layer):
+   * Frontstage: Điểm tương tác trực tiếp đối ứng với khách hàng.
+   * Backstage: Quy trình xử lý kỹ thuật/nghiệp vụ nội bộ phía sau.
+ * Hệ thống hỗ trợ (Support Experience / Infrastructure): Công cụ phần mềm, phần cứng, quy trình CRM và hạ tầng kích hoạt dịch vụ.
+2. Trục ngang — Các giai đoạn hành trình (Journey Stages)
+Hành trình được chia thành 4 Giai đoạn chiến lược (Phân vùng chính) bao gồm 8 Bước tác nghiệp chi tiết (Touchpoints 1-8):
+ * Giai đoạn 1: CHECK-IN (Bước 1: Arrive \rightarrow Bước 2: Orient)
+ * Giai đoạn 2: EXPLORE & EVALUATE (Bước 3: Explore My Issue \rightarrow Bước 4: Seek Seed Solution \rightarrow Bước 5: Quick Temporary Solution \rightarrow Bước 6: Next Steps)
+ * Giai đoạn 3: CHECK-OUT & MOVE (Bước 7: Move)
+ * Giai đoạn 4: POST STORE (Bước 8: Touch Base)
+II. BẢNG TỔNG HỢP CHI TIẾT TỪNG BƯỚC TÁC NGHIỆP (FULL TACTICAL MATRIX)
+| Giai đoạn | Bước hành trình | Trải nghiệm & Suy nghĩ của Khách hàng (Customer Doing / Thinking) | Mục tiêu & Hành động của Nhân viên (Staff Goal / Frontstage / Backstage) | Hệ thống & Công cụ hỗ trợ (Support Experience / System Tools) |
+|---|---|---|---|---|
+| CHECK-IN | 1. Arrive (Bước vào) | Hành động: Mới bước vào cửa hàng.
+Suy nghĩ: Bị ngợp bởi màn hình và ánh sáng; băn khoăn không biết ai hỗ trợ và muốn được phục vụ nhanh chóng. | Mục tiêu: Đón tiếp mượt mà, định hướng tức thì.
+Frontstage: Tiếp cận chào hỏi, nhận diện nhu cầu ban đầu. | Agent Tablet - Concierge / Queue: Ứng dụng phân luồng và xếp hàng trên tablet. |
+|  | 2. Orient (Định hướng) | Hành động: Trình bày lý do đến hoặc chờ phân điều hướng.
+Suy nghĩ: Mong muốn được dẫn tới đúng người có thẩm quyền xử lý sự cố. | Mục tiêu: Giúp khách hàng cảm thấy được lắng nghe.
+Frontstage: Điều phối khách hàng tới khu vực/nhân viên chuyên trách. | Queue Status Board: Màn hình hiển thị trạng thái hàng đợi. |
+| EXPLORE & EVALUATE | 3. Explore My Issue (Khám phá vấn đề) | Hành động: Trình bày sự cố (ví dụ: Internet nhà bị rớt mạng).
+Suy nghĩ: Cần tìm giải pháp hoặc phương án thay thế ngay. | Mục tiêu: Xác định đúng trọng tâm lỗi.
+Frontstage: Kiểm tra thông tin thuê bao, lắng nghe mô tả lỗi.
+Backstage: Lấy lịch sử giao dịch trên hệ thống. | Service Portal / CRM: Hệ thống tra cứu lịch sử và tình trạng sự cố. |
+|  | 4. Seek Seed Solution (Tìm giải pháp) | Hành động: Cùng nhân viên xem xét các lựa chọn khắc phục.
+Suy nghĩ: Muốn biết cụ thể cửa hàng sẽ làm gì để khắc phục vấn đề. | Mục tiêu: Đưa ra phương án giải quyết rõ ràng.
+Frontstage: Đề xuất phương án sửa chữa + giải pháp ứng phó tạm thời. | Diagnostic Diagnostic Tools: Bộ công cụ chẩn đoán lỗi mạng từ xa. |
+|  | 5. Quick Temporary Solution (Giải pháp khẩn cấp) | Hành động: Nhận giải pháp tạm thời.
+Suy nghĩ: Dù chưa xong ngay nhưng an tâm vì được cấp 4G dùng tạm để duy trì công việc. | Mục tiêu: Xoá bỏ rào cản gián đoạn kết nối.
+Frontstage: Hướng dẫn khách hàng kích hoạt và sử dụng dữ liệu khẩn cấp. | Backup 4G SIM / Modem Provisioning: Công cụ kích hoạt nhanh SIM/Modem dự phòng. |
+|  | 6. Next Steps (Chốt bước tiếp theo) | Hành động: Xác nhận lịch xử lý kỹ thuật tại nhà.
+Suy nghĩ: Đã nắm rõ mốc thời gian kỹ thuật viên sẽ đến xử lý triệt để. | Mục tiêu: Đảm bảo tính minh bạch về tiến độ.
+Frontstage: Đặt lịch hẹn kỹ thuật viên Field Team, chốt cam kết. | Field Operations Scheduler: Hệ thống đặt lịch kỹ thuật viên hiện trường. |
+| CHECK-OUT & MOVE | 7. Move (Hoàn tất & Rời đi) | Hành động: Hoàn tất thủ tục, nhận thiết bị/biên nhận.
+Suy nghĩ: Trải nghiệm tốt hơn mong đợi; rời cửa hàng với tâm lý hài lòng. | Mục tiêu: Thanh toán và bàn giao nhanh gọn.
+Frontstage: Bàn giao thiết bị dự phòng, hướng dẫn hoàn tất giao dịch. | Agent POS / Tablet Check-out: Hệ thống POS thanh toán di động. |
+| POST STORE | 8. Touch Base (Chăm sóc sau dịch vụ) | Hành động: Trở về nhà, nhận tin nhắn chăm sóc.
+Suy nghĩ: Cảm thấy được quan tâm; muốn tiếp tục dùng ứng dụng của nhà mạng. | Mục tiêu: Theo dõi chỉ số hài lòng (CSAT/NPS).
+Frontstage: Gửi tin nhắn SMS/Notification khảo sát và hỗ trợ từ xa. | SMS Gateway / App Feedback: Hệ thống chăm sóc tự động & đánh giá chất lượng. |
